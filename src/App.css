@@ -118,6 +118,7 @@ body {
   min-height: 800px;
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
+  padding: 0.8rem;
 }
 
 .productos-container .tarjeta {
@@ -143,8 +144,8 @@ body {
 }
 
 .producto-img img {
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   border-radius: 10px;
 }
 

@@ -1,4 +1,7 @@
 import quince from '../images/15cake.jpg'
+import flores from '../images/flores.jpg'
+import paris from '../images/paris.jpg'
+import delfines from '../images/delfines.jpg'
 
 export const productos = [
     {
@@ -13,7 +16,7 @@ export const productos = [
         id: 2,
         nombre:'Flores',
         precio:40,
-        imagenUrl: '../images/flores.jpg',
+        imagenUrl: `${flores}`,
         descripcion:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium dolore quam explicabo est dignissimos laudantium pariatur blanditiis quos cupiditate",
         categoria : "tortas"
     },
@@ -21,7 +24,7 @@ export const productos = [
         id: 3,
         nombre:'Ciudades',
         precio:60,
-        imagenUrl: '../images/paris.jpg',
+        imagenUrl: `${paris}`,
         descripcion:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium dolore quam explicabo est dignissimos laudantium pariatur blanditiis quos cupiditate",
         categoria : "tortas"
     },
@@ -29,7 +32,7 @@ export const productos = [
         id: 4,
         nombre:'Minimalistas',
         precio:30,
-        imagenUrl: '../images/delfines.jpg',
+        imagenUrl: `${delfines}`,
         descripcion:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium dolore quam explicabo est dignissimos laudantium pariatur blanditiis quos cupiditate",
         categoria : "tortas"
     }
