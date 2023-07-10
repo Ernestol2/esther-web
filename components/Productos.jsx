@@ -1,5 +1,3 @@
-//import productos from '../db/productos'
-
 import { productos } from "../db/productos";
 
 export default function Productos() {
