@@ -1,11 +1,11 @@
-
+import quince from '../images/15cake.jpg'
 
 export const productos = [
     {
         id: 1,
         nombre:'Quince Años',
         precio:50,
-        imagenUrl: "/images/15cake.jpg",
+        imagenUrl: `${quince}`,
         descripcion:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium dolore quam explicabo est dignissimos laudantium pariatur blanditiis quos cupiditate",
         categoria : "tortas"
     },
