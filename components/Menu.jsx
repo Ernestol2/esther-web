@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Menu() {
   return (
-    <Navbar expand="sm" className="bg-body-tertiary">
+    <Navbar expand="sm" className="bg-transparent">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

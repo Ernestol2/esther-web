@@ -93,7 +93,7 @@ body {
 /*Nosotros*/
 
 .nosotros-container {
-  background-color: #4ebeb0;
+  background-color: #FC59A2;
   min-height: 600px;
   color: white;
 }
@@ -108,8 +108,44 @@ body {
 
 .nosotros-container p {
   margin: 1rem;
-  line-height: 1.1rem;
+  line-height: 1.3rem;
   font-weight: bold;
+}
+
+/*Productos*/
+
+.productos-container {
+  min-height: 800px;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.productos-container .tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-shadow: -2px 3px 5px 1px rgba(0,0,0,0.75);
+}
+
+.tarjeta h2 {
+  font-weight: bold;
+  color: gray;
+  padding: 0.4rem;
+}
+
+.tarjeta p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.producto-img img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
 }
 
 /*Media querys*/
