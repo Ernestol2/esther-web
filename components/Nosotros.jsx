@@ -2,7 +2,7 @@
 
 export default function Nosotros() {
   return (
-    <section className="nosotros-container">
+    <section className="nosotros-container" id="nosotros">
         <h2>NOSOTROS</h2>
         <p>Fantasy&apos;s Cake es una marca 100% familiar, que nace hace 13 años con la organización del primer cumpleaños del hijo de su creadora, con algunos conocimientos muy básicos de la realización de postres surge la idea de incursionar en un mundo dulce, haciendo postres clásicos e infaltables en las fiestas infantiles. </p>
         <p>Con forme paso el tiempo fuimos perfeccionando técnicas, realizando estudios que nos mantuvieran siempre actualizados y que nos permitan ofrecer productos de calidad, con sabores que enamoren al paladar.</p>

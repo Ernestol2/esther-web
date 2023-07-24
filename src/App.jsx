@@ -1,25 +1,22 @@
-import Inicio from '../components/Inicio'
-import Menu from '../components/Menu'
-import Navigation from '../components/Navigation'
-import Nosotros from '../components/Nosotros'
-import Productos from '../components/Productos'
-import Slider from '../components/Slider'
-import './App.css'
-
+import { Switch, Route } from 'react-router-dom';
+import RutasProtegidas from '../components/RutasProtegidas';
+import Landing from '../components/Landing';
+import ProductForm from '../components/ProductForm';
+import Validador from '../components/Validador';
+import TodosLosProductos from '../components/TodosLosProductos';
+import './App.css';
 
 function App() {
-  
-
   return (
     <>
-      <Navigation />
-      <Menu />
-      <Inicio />
-      <Slider />
-      <Nosotros />
-      <Productos />
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/administradora" component={Validador} />
+        <RutasProtegidas path="/productonuevo" comp={ProductForm} />
+        <RutasProtegidas path="/todos" comp={TodosLosProductos} />
+      </Switch>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
