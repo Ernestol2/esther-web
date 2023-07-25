@@ -11,11 +11,12 @@ export default function Invitacion() {
                     <h2>Hagamos tu sueño realidad!</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam debitis impedit asperiores ex iure tempora ipsa amet sint iusto!</p>
                 </div>
-                <Button className="m-4">
-                    <a href="https://wa.me/+584248867357" target="_blank" rel="noopener noreferrer"></a>
-                    Hablemos{' '}
-                    <BsChatDots size={23}/>
-                </Button>
+                    <a href="https://wa.me/+584248867357" target="_blank" rel="noopener noreferrer">
+                        <Button className="m-4">
+                            Contáctanos ahora!{' '}
+                            <BsChatDots size={23} />
+                        </Button>
+                    </a>
             </Col>
             <Col xs={12} sm={5} lg={3}>
                 <div>
