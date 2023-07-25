@@ -8,6 +8,7 @@ import HeroTwo from './HeroTwo'
 import HeroThree from './HeroThree'
 import Servicios from './Servicios'
 import Invitacion from './Invitacion'
+import Footer from './Footer'
 
 
 
@@ -24,6 +25,7 @@ export default function Landing() {
         <HeroThree />
         <Servicios />
         <Invitacion />
+        <Footer />
     </>
   )
 }

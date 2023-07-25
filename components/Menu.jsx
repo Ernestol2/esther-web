@@ -10,7 +10,7 @@ function Menu() {
             <Nav.Link href="#inicio">INICIO</Nav.Link>
             <Nav.Link href="#nosotros">NOSOTROS</Nav.Link>
             <Nav.Link href='#servicios'>SERVICIOS</Nav.Link>
-           {/* <Nav.Link href='/administradora'>ADMIN</Nav.Link>  */}          
+            <Nav.Link href='#contacto'>CONTACTO</Nav.Link>     
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -4,7 +4,7 @@ import { BsChatDots } from 'react-icons/bs'
  
 export default function Invitacion() {
   return (
-    <Container className="invitacion" fluid>
+    <Container className="invitacion" id="contacto" fluid>
         <Row>
             <Col className="text" xs={12} sm={5} lg={3}>
                 <div>
@@ -12,6 +12,7 @@ export default function Invitacion() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque totam debitis impedit asperiores ex iure tempora ipsa amet sint iusto!</p>
                 </div>
                 <Button className="m-4">
+                    <a href="https://wa.me/+584248867357" target="_blank" rel="noopener noreferrer"></a>
                     Hablemos{' '}
                     <BsChatDots size={23}/>
                 </Button>

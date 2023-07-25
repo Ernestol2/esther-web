@@ -218,6 +218,7 @@ body {
 /*Servicios */
 
 .servicios {
+  margin-top: 6rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -299,7 +300,44 @@ body {
   padding: 0 !important;
 }
 
-/*Tarjetas todos los productos*/ 
+/* FOOTER - PIE DE PAGINA */
+.footer {
+  min-height: 300px;
+  background-color: #282727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+
+.footer .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.footer .icons {
+  display: flex;
+  gap:.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FC59A2;
+}
+
+/* Tarjetas todos los productos*/ 
 .tarjeta-todos img {
   width: 100%;
   height: 180px;
