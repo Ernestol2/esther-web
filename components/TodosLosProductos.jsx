@@ -7,7 +7,10 @@ export default function TodosLosProductos() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-      axios.get('http://localhost:3000/productos')
+      //crear una variable para la url y cambiar el localhost una vez hecho el deploy
+      //se cambio url para prueba
+
+      axios.get('https://fantasys-esther.onrender.com/products')
       .then(response => {
         console.log(response.data);
         setProducts(response.data)

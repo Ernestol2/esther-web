@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
+//aca se debe cambiar la url luego del deploy
 const URL = 'http://localhost:3000/api/products';
 
 export default function GetProducts() {

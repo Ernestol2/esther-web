@@ -337,6 +337,15 @@ body {
   color: #FC59A2;
 }
 
+/*Products Form*/
+
+.product-form .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Tarjetas todos los productos*/ 
 .tarjeta-todos img {
   width: 100%;

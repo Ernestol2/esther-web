@@ -11,9 +11,9 @@ function App() {
     <>
       <Switch>
         <Route exact path="/" component={Landing} />
-        <Route exact path="/administradora" component={Validador} />
+        <Route exact path="/admin" component={Validador} />
         <RutasProtegidas path="/productonuevo" comp={ProductForm} />
-        <RutasProtegidas path="/todos" comp={TodosLosProductos} />
+        <RutasProtegidas path="/products" comp={TodosLosProductos} />
       </Switch>
     </>
   );
