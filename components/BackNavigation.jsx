@@ -9,7 +9,7 @@ export default function BackNavigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto menu">
-            <Nav.Link href="/todos">PRODUCTOS</Nav.Link>
+            <Nav.Link href="/products">PRODUCTOS</Nav.Link>
             <Nav.Link href="/productonuevo">NUEVO</Nav.Link>
             <Nav.Link href='#'>BORRAR</Nav.Link>
             <Nav.Link href='/'>INICIO</Nav.Link>
