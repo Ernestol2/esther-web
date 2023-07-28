@@ -13,9 +13,9 @@ function App() {
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/admin" component={Validador} />
-        <Route exact path="*" component={NotFound} />
         <RutasProtegidas path="/productonuevo" comp={ProductForm} />
         <RutasProtegidas path="/products" comp={TodosLosProductos} />
+        <Route exact path="*" component={NotFound} />
       </Switch>
     </>
   );
