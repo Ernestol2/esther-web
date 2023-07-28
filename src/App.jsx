@@ -5,6 +5,7 @@ import ProductForm from '../components/ProductForm';
 import Validador from '../components/Validador';
 import TodosLosProductos from '../components/TodosLosProductos';
 import './App.css';
+import NotFound from '../components/NotFound';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/admin" component={Validador} />
+        <Route exact path="*" component={NotFound} />
         <RutasProtegidas path="/productonuevo" comp={ProductForm} />
         <RutasProtegidas path="/products" comp={TodosLosProductos} />
       </Switch>

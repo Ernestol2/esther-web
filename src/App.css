@@ -358,6 +358,15 @@ body {
   color: #510e84;
 }
 
+/* Pagina 404 */
+.error-page {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /*Media querys*/
 
 @media only screen and (max-width: 500px)  {
