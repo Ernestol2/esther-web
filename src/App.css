@@ -54,8 +54,15 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgb(252, 89, 162);
-  border: 1px solid #FC59A2;
+  color: #fc59a2;
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /*Inicio*/
@@ -356,6 +363,101 @@ body {
 .tarjeta-todos .card-title {
   font-size: 1rem;
   color: #510e84;
+}
+/* Tortas */
+.tortas .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tortas .card-img-top {
+  height: 200px;
+  min-width: 200px;
+  object-fit: cover;
+}
+
+.tortas .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tortas .btn {
+  background-color: #FC59A2;
+  border: 1px solid #FC59A2;
+}
+
+.tortas .btn:hover {
+  background-color: #fc3c92;
+  border: 1px solid #fc3c92;
+}
+
+/* Torta por id */
+.torta-id .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.torta-id .btn {
+  background-color: #FC59A2;
+  border: #FC59A2;
+}
+
+.torta-id .btn:hover {
+  background-color: #fc3c92;
+  border: 1px solid #fc3c92;
+}
+
+/* Dulce por id */
+.dulce-id .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dulce-id .btn {
+  background-color: #FC59A2;
+  border: #FC59A2;
+}
+
+.dulce-id .btn:hover {
+  background-color: #fc3c92;
+  border: 1px solid #fc3c92;
+}
+
+/* Dulces */
+.dulces .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dulces .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dulces .card-img-top {
+  height: 200px;
+  min-width: 200px;
+  object-fit: cover;
+}
+
+.dulces .btn {
+  background-color: #FC59A2;
+  border: 1px solid #FC59A2;
+}
+
+.dulces .btn:hover {
+  background-color: #fc3c92;
+  border: 1px solid #fc3c92;
 }
 
 /* Pagina 404 */

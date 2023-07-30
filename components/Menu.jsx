@@ -7,9 +7,10 @@ function Menu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto menu">
-            <Nav.Link href="#inicio">INICIO</Nav.Link>
-            <Nav.Link href="#nosotros">NOSOTROS</Nav.Link>
-            <Nav.Link href='#servicios'>SERVICIOS</Nav.Link>
+            <Nav.Link href="/">INICIO</Nav.Link>
+            <Nav.Link href="/tortas">TORTAS</Nav.Link>
+            <Nav.Link href='/dulces'>DULCES</Nav.Link>
+            <Nav.Link href='/salados'>SALADOS</Nav.Link>
             <Nav.Link href='#contacto'>CONTACTO</Nav.Link>     
           </Nav>
         </Navbar.Collapse>
