@@ -12,11 +12,10 @@ const ProductForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    //crear una constante url para el httplocalhost y cambiar una vez hecho el deploy
     //cambie url para prueba !!!
 
     try {
-      const response = await axios.post('https://fantasys-esther.onrender.com/productonuevo', {
+      const response = await axios.post('https://fantasy-backend-t2q2-dev.fl0.io/productonuevo', {
         nombre,
         descripcion,
         precio,

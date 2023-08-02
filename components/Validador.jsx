@@ -12,12 +12,12 @@ function Validador() {
     const [contraseña, setContraseña] = useState("")
     const [login, setLogin] = useState("")
 
-
+    // i change url to test
     const handleSubmit = (e) => {
         e.preventDefault();
         const configuration = {
             method: "post",
-            url: "https://fantasys-esther.onrender.com/admin",
+            url: "https://fantasy-backend-t2q2-dev.fl0.io/admin",
             data: {
                 email,
                 contraseña
